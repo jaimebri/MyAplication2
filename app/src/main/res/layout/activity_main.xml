@@ -14,14 +14,14 @@
             android:layout_margin="50dp"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#0041FF">
+            android:background="#1536AC">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="HOLA"
                 android:gravity="center"
-                android:textColor="#FFFFFF">
+                android:textColor="#CDF7EBEB">
 
             </TextView>
 
@@ -45,8 +45,8 @@
                 android:hint="Contraseña"/>
             <Button
                 android:layout_margin="10dp"
-                android:background="#004BFF"
-                android:textColor="#fff"
+                android:background="#1A3EC0"
+                android:textColor="#DFE0E6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="ENVIAR"/>
@@ -55,6 +55,40 @@
 
 
         </GridLayout>
+        <GridLayout
+            android:layout_margin="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="2">
+
+        </GridLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="no tienes cuenta"
+            android:gravity="center"
+            android:textColor="#0323F4">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/m"
+                android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:text="genero"/>
+        <RadioButton
+            android:id="@+id/m"
+            android:layout_weight="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="masculino"/>
+        
+
+
+
 
 
 
